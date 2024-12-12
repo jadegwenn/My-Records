@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TeachersDigitalClassRecord.BaseMenu">
+    <Position X="4.5" Y="2.25" Width="1.5" />
+    <AssociationLine Name="QuarterScore" Type="TeachersDigitalClassRecord.QuarterScore" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.312" Y="2.25" />
+        <Point X="5.312" Y="1.625" />
+        <Point X="7.5" Y="1.625" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IBAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="QuarterScore" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TeachersDigitalClassRecord.ScoreMenu">
+    <Position X="2.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeachersDigitalClassRecord.Assessment">
+    <Position X="10.5" Y="3.25" Width="1.5" />
+    <AssociationLine Name="QuarterScore" Type="TeachersDigitalClassRecord.QuarterScore" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.5" Y="3.5" />
+        <Point X="10.337" Y="3.5" />
+        <Point X="10.337" Y="3.565" />
+        <Point X="10.005" Y="3.565" />
+        <Point X="10.005" Y="2.753" />
+        <Point X="9.495" Y="2.753" />
+        <Point X="9.495" Y="1.5" />
+        <Point X="9" Y="1.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABAIAAAAAAAAAAgEAAAIAEAAAAAAAAAAAUAAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="QuarterScore" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TeachersDigitalClassRecord.QuarterScore">
+    <Position X="7.5" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="TeachersDigitalClassRecord.QuarterScore.SubjectScore" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="TeachersDigitalClassRecord.QuarterScore.StudentRecord" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="TeachersDigitalClassRecord.QuarterScore.Program" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAQAAAEAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
